@@ -20,9 +20,10 @@
     display: flex;
    column-gap:10px;
    padding: 8px;
-   width: 385px;
+   
    height: 80px;
    margin-top: 14px;
+   width: 100%;
    
 }
 
@@ -40,6 +41,7 @@
     font-family:'boldwoff';
     padding: 0px 12px;
     margin-left: 35px;
+    
 }
 
 .logo{
@@ -961,6 +963,11 @@ border-radius: 30px;
     display: flex;
     justify-content: center;
 }
+
+.open-button{
+   transform: translateX(52px);
+}
+
     
 }
 
@@ -1592,16 +1599,23 @@ width: 90%;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    gap: 80px;
+ }
 
-    
+ .start-button{
+    font-size: 18px;
  }
  
+ .content-first{
+    margin-top: 8px;
+
+ }
  
 
  .head-section{
     display: flex;
     flex-direction: column;
+    width: 360px;
+
     
     
  }
