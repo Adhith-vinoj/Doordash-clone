@@ -702,6 +702,9 @@
     overflow-x: auto;
     flex-shrink: 0;
 }
+.scroll-root::-webkit-scrollbar{
+    display: nonegit;
+}
     
 .root{
     background-color: rgb(254, 241,238);
